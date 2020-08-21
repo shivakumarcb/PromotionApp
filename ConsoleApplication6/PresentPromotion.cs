@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication6
 {
-    class  PresentPromotion
+    public class PresentPromotion
     {
         public  List<Promotion> promotions= new List<Promotion>();
 

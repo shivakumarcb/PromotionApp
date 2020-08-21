@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication6
 {
-    class Order
+    public class Order
     {
         private List<Product> Products= new List<Product>();
          public List<Promotion> promotions;
