@@ -12,7 +12,7 @@ namespace ConsoleApplication6
         {
             PresentPromotion presentPromotions = new PresentPromotion();
             List<Promotion> promotions = presentPromotions.getPromotions();
-            Order order = new Order();
+            Order order = new Order(promotions);
            
             Console.WriteLine("Enter product A quantity ");
             int qnty = Convert.ToInt16(Console.ReadLine());
