@@ -9,7 +9,7 @@ namespace ConsoleApplication6
     class Order
     {
         private List<Product> Products= new List<Product>();
-
+         public List<Promotion> promotions;
         public void AddOrders(string item, int quantity)
         {
             if (quantity >= 0)

@@ -42,8 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Order.cs" />
+    <Compile Include="PresentPromotion.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Promotion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -10,6 +10,8 @@ namespace ConsoleApplication6
     {
         static void Main(string[] args)
         {
+            PresentPromotion presentPromotions = new PresentPromotion();
+            List<Promotion> promotions = presentPromotions.getPromotions();
             Order order = new Order();
            
             Console.WriteLine("Enter product A quantity ");
