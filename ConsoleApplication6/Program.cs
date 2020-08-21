@@ -27,10 +27,11 @@ namespace ConsoleApplication6
             Console.WriteLine("Enter product D quantity ");
             int qnty4 = Convert.ToInt16(Console.ReadLine());
             order.AddOrders("D", qnty4);
-         
-             
-            
-
+                    
+            decimal finalPrice = order.GetOrderFinalPrice();
+            Console.WriteLine("OrderID: 1 => Final price:" + finalPrice.ToString());
+            Console.ReadKey();
+        
         }
     }
 }

@@ -22,5 +22,11 @@ namespace ConsoleApplication6
                 
             }
         }
+
+        public decimal GetOrderFinalPrice()
+        {
+            decimal origprice = Products.Sum(x => x.Price);
+            return origprice ;
+        }
     }
 }
