@@ -8,7 +8,7 @@ namespace ConsoleApplication6
 {
     class Order
     {
-        private List<Product> Products;
+        private List<Product> Products= new List<Product>();
 
         public void AddOrders(string item, int quantity)
         {
@@ -16,7 +16,8 @@ namespace ConsoleApplication6
             {
                 for (int i = 1; i <= quantity; i++)
                 {
-                    Products.Add(new Product(item));
+                    Product p = new Product(item);
+                    Products.Add(p);
                 }
                 
             }
